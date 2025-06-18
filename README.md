@@ -84,7 +84,7 @@
 [![Стрик коммитов](https://github-readme-streak-stats.herokuapp.com/?user=HellBee404&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 [![Топ языков](https://github-readme-stats.vercel.app/api/top-langs/?username=HellBee404&layout=compact&theme=radical&hide=html,css,scss)](https://github.com/HellBee404)
 
-![Snake Animation](https://github.com/HellBee404/HellBee404/blob/output/github-contribution-grid-snake.svg)
+![Snake Animation](https://raw.githubusercontent.com/HellBee404/HellBee404/output/github-contribution-grid-snake.svg)
 
 </div>
 
