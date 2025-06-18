@@ -1,14 +1,8 @@
 name: Generate Snake
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
 
 jobs:
   generate-snake:
@@ -17,15 +11,19 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: output
+          path: output
           
-      - uses: Platane/snk@master
-        id: snake
+      - name: Generate snake
+        uses: Platane/snk@master
         with:
           github_user_name: HellBee404
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path: output/snake.svg
           
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_files: true
+      - name: Commit and push
+        run: |
+          cd output
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add snake.svg
+          git commit -m "Update snake"
+          git push
