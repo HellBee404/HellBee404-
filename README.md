@@ -76,10 +76,14 @@
 
 ---
 
-### 📈 GitHub Stats:
+### 📊 Динамика активности
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HellBee&show_icons=true&theme=radical" width="47%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HellBee&theme=radical" width="47%" />
+
+[![Основная статистика](https://github-readme-stats.vercel.app/api?username=HellBee404&show_icons=true&theme=radical&include_all_commits=true&count_private=true)](https://github.com/HellBee404)
+[![Стрик коммитов](https://github-readme-streak-stats.herokuapp.com/?user=HellBee404&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![Топ языков](https://github-readme-stats.vercel.app/api/top-langs/?username=HellBee404&layout=compact&theme=radical&hide=html,css,scss)](https://github.com/HellBee404)
+
 </div>
 
 ---
