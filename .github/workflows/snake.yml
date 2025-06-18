@@ -4,26 +4,31 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+permissions:
+  contents: write
+
 jobs:
-  generate-snake:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           ref: output
           path: output
-          
-      - name: Generate snake
+
+      - name: Generate Snake
         uses: Platane/snk@master
+        id: snake
         with:
           github_user_name: HellBee404
           svg_out_path: output/snake.svg
-          
-      - name: Commit and push
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push to output
         run: |
           cd output
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add snake.svg
-          git commit -m "Update snake"
-          git push
+         
