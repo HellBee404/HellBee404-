@@ -80,10 +80,11 @@
 
 <div align="center">
 
-[![HellBee's Stats](https://github-readme-stats.vercel.app/api?username=HellBee404&show_icons=true&theme=radical&include_all_commits=true)](https://github.com/HellBee404)
-[![Commit Streak](https://streak-stats.demolab.com?user=HellBee404&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![Основная статистика](https://github-readme-stats.vercel.app/api?username=HellBee404&show_icons=true&theme=radical&include_all_commits=true&count_private=true)](https://github.com/HellBee404)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HellBee404&layout=compact&theme=radical&hide=html,css,scss)](https://github.com/HellBee404)
+[![Стрик коммитов](https://github-readme-streak-stats.herokuapp.com/?user=HellBee404&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+
+[![Топ языков](https://github-readme-stats.vercel.app/api/top-langs/?username=HellBee404&layout=compact&theme=radical&hide=html,css,scss)](https://github.com/HellBee404)
 
 ![Snake Animation](https://raw.githubusercontent.com/HellBee404/HellBee404/output/snake.svg)
 
